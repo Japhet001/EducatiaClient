@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import {apiDomain} from '../utils/utils'
 import './Register.css';
 
 export default function Form() {
@@ -37,9 +38,8 @@ export default function Form() {
             };
 
             // Make the Axios POST request to register the user
-            axios
-                .post('http://localhost:8080/auth/register', userData)
-                .then((response) => {
+            axios.post(`${apiDomain}/auth/register`, userData)
+                 .then((response) => {
                     setSubmitted(true);
                     setError(false);
                 })
