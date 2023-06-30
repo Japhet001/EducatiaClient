@@ -104,7 +104,7 @@ const Footer = () => {
       </footer>
       <p className="footer__copyright">
         copyright &copy; 2023. Made with <span>&hearts;</span> by{" "}
-        <a className="footer-copyright-link">Bisengi Japhet</a>
+        {/* <a className="footer-copyright-link">Bisengi Japhet</a> */}
       </p>
     </>
   );
