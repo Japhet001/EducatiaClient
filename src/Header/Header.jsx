@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Logo from "../Logo/Logo";
 import { Twitter, Facebook, Instagram, LinkedIn } from "../Icons/Icons";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 // import LoginForm from "../Login/Login";
 const Header = () => {
